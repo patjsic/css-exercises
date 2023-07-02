@@ -2,14 +2,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
 .para,
 .small-para {
   color: hsl(0, 0%, 0%);
-  font-weight: 800;
-}
-
-.small-para {
-  font-size: 14px;
   font-weight: 800;
 }
 
@@ -17,8 +13,13 @@ body {
   font-size: 22px;
 }
 
-.confirm {
-  background: green;
+.small-para {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+#confirm-button {
+  background-color: green;
   color: white;
   font-weight: bold;
 } 
@@ -35,7 +36,7 @@ body {
   font-size: 14px;
 }
 
-div.text {
+div {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
